@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "spiffworkflow-experimental"
+version = "0.1.0"
+description = ""
+authors = ["Pranithan Thamcharoenporn <pranithan@opendream.co.th>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spiffworkflow = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
